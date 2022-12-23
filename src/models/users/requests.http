@@ -1,0 +1,249 @@
+##   ADMIN 
+##   address: '0x2c553564Ab17d769C5e81433a4628536c4E83647',
+
+### Create
+POST http://localhost:42008/user
+nkadm: <contact us to get this key, not published on this public repo>
+content-type: application/json
+
+{
+  "email": "test1@test.com"
+}
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### Update
+PATCH http://localhost:42008/user/637dd2936019e11abc917aed
+nkadm: <contact us to get this key, not published on this public repo>
+Content-Type: application/json
+
+{
+  "ethereumAddress": "0x992B183165A39fA512090C0d8D45fFD88025240E",
+  "companyName": "The Hatcher",
+  "telephone": "+32469879933",
+  "avinetId": "49490-9034-4400",
+  "ethereumPublicKey": "0x04094e94bbbfd142def6ab8408b09deda0dc1bbb52c2c2167ab6a350f3f441e336361b227711fb3c35743285b36954a5d95de7227c739337a562cdc6158b90a1b0",
+  "role": "HATCHERY"
+}
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# # # DEPLOY ALL USERS # # #
+
+
+### Hatchery 1
+POST http://localhost:42008/user
+nkadm: <contact us to get this key, not published on this public repo>
+content-type: application/json
+
+{
+  "email": "hatchery1@test.com",
+  "ethereumAddress": "0x992B183165A39fA512090C0d8D45fFD88025240E",
+  "companyName": "Hatchery One",
+  "telephone": "+31555666777",
+  "avinetId": "12345-1234-1234",
+  "ethereumPublicKey": "0x04094e94bbbfd142def6ab8408b09deda0dc1bbb52c2c2167ab6a350f3f441e336361b227711fb3c35743285b36954a5d95de7227c739337a562cdc6158b90a1b0",
+  "role": "HATCHERY"
+}
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+### Farmer 1
+POST http://localhost:42008/user
+nkadm: <contact us to get this key, not published on this public repo>
+content-type: application/json
+
+{
+  "email": "farmer1@test.com",
+  "ethereumAddress": "0xED456077E28Fe92a64dd7CC7E91fe2A470Fa03D0",
+  "companyName": "Farmer One",
+  "telephone": "+31555666111",
+  "avinetId": "12345-1234-1111",
+  "ethereumPublicKey": "0x04cc68efa8dc9756c2ca332bd326b021e808ac956fa1c45180bbdf84f2e0da4f3abe8b140bbb17441f38d47e1962bacd5005fc7455aaea8e9e328eca0d5c437ef7",
+  "role": "FARMER"
+}
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### Farmer 2
+POST http://localhost:42008/user
+nkadm: <contact us to get this key, not published on this public repo>
+content-type: application/json
+
+{
+  "email": "farmer2@test.com",
+  "ethereumAddress": "0x83bD7c3E082D52a730c19A5FF00bFecEC05Eb8F0",
+  "companyName": "Farmer Two",
+  "telephone": "+31555666112",
+  "avinetId": "12345-1234-1112",
+  "ethereumPublicKey": "0x043f15187aff7be014c75a2b98f9494f8655c9f3f40ca5640c094909d70b9e7dfda4b7b332e4bcc9bcdee3e3bd496a37a24d65a183fee731761083c56f6dc97fee",
+  "role": "FARMER"
+}
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+### Slaughterhouse 1
+POST http://localhost:42008/user
+nkadm: <contact us to get this key, not published on this public repo>
+content-type: application/json
+
+{
+  "email": "slaughterhouse1@test.com",
+  "ethereumAddress": "0x3F0fA82D992637359568B0cEc83C4d40673671E7",
+  "companyName": "Slaughterhouse One",
+  "telephone": "+31555666222",
+  "avinetId": "12345-1234-2222",
+  "ethereumPublicKey": "0x0433e997f44d66ac82ceac41f73cc57e689bf3f001016947cb2fec8a5c875047128b12c88dce535b76be5f8018bc49072ee9e8c388baeb4c297057f37ee46c43e2",
+  "role": "SLAUGHTERHOUSE"
+}
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### Slaughterhouse 1
+POST http://localhost:42008/user
+nkadm: <contact us to get this key, not published on this public repo>
+content-type: application/json
+
+{
+  "email": "slaughterhouse2@test.com",
+  "ethereumAddress": "0x56D6dA86935F71969f8f2b5926B7a75Ab7807a86",
+  "companyName": "Slaughterhouse Two",
+  "telephone": "+31555666223",
+  "avinetId": "12345-1234-2223",
+  "ethereumPublicKey": "0x04d9cbde0ca738d207b8b9cadc853a0fce207d50f22194f0417407106ba2d902b3081bf8feda44c27ec14eee4b077c317fc541e0b4ec965bb06a217588ed3743ac",
+  "role": "SLAUGHTERHOUSE"
+}
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+### Labo 1
+POST http://localhost:42008/user
+nkadm: <contact us to get this key, not published on this public repo>
+content-type: application/json
+
+{
+  "email": "laboratory1@test.com",
+  "ethereumAddress": "0xE0631223F9318a8b11843e3F24Bd40D3d1dc82Df",
+  "companyName": "Laboratory One",
+  "telephone": "+31555666777",
+  "avinetId": "12345-1234-7777",
+  "ethereumPublicKey": "0x04f73f0f430fcd3840e46285c5212b99612f2708fb9fe3a63fae405a65a4b2b8baa3bfe0ff71d1e72de3e459008eccf6c3d1c1c074326e873da1e7402df17afd73",
+  "role": "LABORATORY"
+}
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+### Labo 2
+POST http://localhost:42008/user
+nkadm: <contact us to get this key, not published on this public repo>
+content-type: application/json
+
+{
+  "email": "laboratory2@test.com",
+  "ethereumAddress": "0x13269591DE53C1a4f78784e3A71887b3FB1CCB0A",
+  "companyName": "Laboratory Two",
+  "telephone": "+31555666771",
+  "avinetId": "12345-1234-7771",
+  "ethereumPublicKey": "0x0468ea0ab3c69ce9c1a8d7487a2aa0fc61e2d849ae1711d28a860331f46c7ad7026ab8a3572e1d14b533d9fed18f5fd70eb0e1daa2fc32c16128e7addf89ae7d51",
+  "role": "LABORATORY"
+}
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### Find one
+GET http://localhost:42008/user/637ddaab914bb8e019ae9251
+nkadm: <contact us to get this key, not published on this public repo>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### search
+GET http://localhost:42008/user?email=test
+nkadm: <contact us to get this key, not published on this public repo>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### search companyName "The Ha"
+GET http://localhost:42008/user?companyName=The%20Ha
+nkadm: <contact us to get this key, not published on this public repo>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### search
+GET http://localhost:42008/user?ethereumAddress=8025240
+nkadm: <contact us to get this key, not published on this public repo>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### search telephone "+3246"
+GET http://localhost:42008/user?telephone=%2B3246
+nkadm: <contact us to get this key, not published on this public repo>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### search
+GET http://localhost:42008/user?ethereumPublicKey=28eca0d5c437ef7
+nkadm: <contact us to get this key, not published on this public repo>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### search
+GET http://localhost:42008/user?avinetId=4422
+nkadm: <contact us to get this key, not published on this public repo>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+### bad search
+GET http://localhost:42008/user?avinetId=
+nkadm: <contact us to get this key, not published on this public repo>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### bad search (include return char => will be not found)
+GET http://localhost:42008/user?telephone=%2B32%0A46
+nkadm: <contact us to get this key, not published on this public repo>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+### search multi keys (AND)
+GET http://localhost:42008/user?ethereumPublicKey=0x04f73f0f43&avinetId=4422
+nkadm: <contact us to get this key, not published on this public repo>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### Mark deleted
+DELETE http://localhost:42008/user/637f3932e5f66d1f620b043c
+nkadm: <contact us to get this key, not published on this public repo>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+### Revive
+PATCH http://localhost:42008/user/restore/637f3932e5f66d1f620b043c
+nkadm: <contact us to get this key, not published on this public repo>
